@@ -19,7 +19,8 @@
   "scripts": {
     "test": "mocha ./test/index.js",
     "compile:esm": "tsc --project tsconfig.json",
-    "compile:cjs": "tsc --project tsconfig.cjs.json"
+    "compile:cjs": "tsc --project tsconfig.cjs.json",
+    "compile": "npm run compile:esm && npm run compile:cjs"
   },
   "author": "Keith Horwood <khorwood@openai.com>",
   "license": "MIT",
