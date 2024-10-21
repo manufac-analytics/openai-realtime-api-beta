@@ -1,20 +1,13 @@
 {
   "name": "@manufac/realtime-api-beta",
   "version": "0.1.0",
-  "type": "module",
+  "type": "commonjs",
   "description": "OpenAI Realtime API Reference Client (beta)",
-  "main": "index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./cjs/index.js",
+  "types": "./cjs/index.d.ts",
   "files": [
-    "cjs",
-    "dist",
-    "lib",
-    "index.js"
+    "cjs"
   ],
-  "exports": {
-    "import": "./index.js",
-    "require": "./cjs/index.js"
-  },
   "publishConfig": {
     "access": "public"
   },
