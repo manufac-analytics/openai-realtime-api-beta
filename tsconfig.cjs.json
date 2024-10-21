@@ -1,0 +1,11 @@
+{
+  "include": ["index.js"],
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "cjs",
+    "declarationMap": true,
+    "lib": ["ES2022"],
+    "module": "commonjs"
+  }
+}
