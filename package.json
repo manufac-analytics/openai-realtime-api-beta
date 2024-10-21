@@ -6,6 +6,12 @@
   "description": "OpenAI Realtime API Reference Client (beta)",
   "main": "index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "cjs",
+    "dist",
+    "lib",
+    "index.js"
+  ],
   "scripts": {
     "test": "mocha ./test/index.js",
     "compile:esm": "tsc --project tsconfig.json",
