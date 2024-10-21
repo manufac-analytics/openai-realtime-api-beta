@@ -1,6 +1,6 @@
 {
   "name": "@manufac/realtime-api-beta",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "OpenAI Realtime API Reference Client (beta)",
   "main": "index.js",
