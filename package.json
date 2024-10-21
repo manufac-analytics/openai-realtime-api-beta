@@ -12,6 +12,10 @@
     "lib",
     "index.js"
   ],
+  "exports": {
+    "import": "./index.js",
+    "require": "./cjs/index.js"
+  },
   "scripts": {
     "test": "mocha ./test/index.js",
     "compile:esm": "tsc --project tsconfig.json",
