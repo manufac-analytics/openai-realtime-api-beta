@@ -8,7 +8,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "mocha ./test/index.js",
-    "compile:esm": "tsc --project ./tsconfig.json"
+    "compile:esm": "tsc --project tsconfig.json"
   },
   "author": "Keith Horwood <khorwood@openai.com>",
   "license": "MIT",
